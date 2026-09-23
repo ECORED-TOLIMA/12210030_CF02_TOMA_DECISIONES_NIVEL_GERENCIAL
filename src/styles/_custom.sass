@@ -3,14 +3,14 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
+    top: 48%
+    left: 0%
     width: 20%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
+    top: 70%
+    right: 15%
     width: 20%
 
 
@@ -28,9 +28,6 @@
   padding-bottom: 0 !important;
 //.banner-principal__row .banner-principal__img 
 //    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -40,17 +37,419 @@
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $black !important
 figcaption 
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+    color: $color-acento-botones !important
+.cajon.color-secundario
+  background-color: #FFD5D6
+.cajon.color-primario
+  background-color: #DBF7FA
+.tarjeta--colsecundario
+  background-color: #F3E2FE
+.BGF01
+  //background-image: url("../assets/curso/temas/bg/imgfondo1.png")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
+.BGF02
+  //background-image: url("../assets/curso/temas/bg/imgfondo2.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
+.BGF03
+  //background-image: url("../assets/curso/temas/bg/imgfondo3.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGTARG
+  background-image: url("../assets/curso/temas/bg/imgfondoslyderf.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+.fa-chevron-right, .fa-chevron-left
+  color:#00642B !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
+// Introducción
+.introduccion-destacado
+  background-color: #FEECD9
+
+.introduccion-destacado__icono
+  width: 88px
+  margin: 0 auto
+
+.introduccion-imagen
+  img
+    object-fit: cover
+    border-radius: 12px
+
+// Tema 1
+.tema1-img-cover
+  width: 100%
+  height: 100%
+  object-fit: cover
+  border-radius: 12px
+
+.tema1-fondo-primario-claro
+  background-color: #FEECD9
+
+.tema1-destacado-secundario
+  background-color: #FFD5D6
+
+.tema1-destacado-acento,
+.tema1-lista-letras
+  background-color: #E7DFFF
+
+.tema1-icono-84
+  width: 84px
+  min-width: 84px
+
+.titulo-pastilla
+  display: inline-flex
+  align-items: center
+  gap: 14px
+  background-color: #E7DFFF
+  border-radius: 25px
+  height: 53px
+  padding: 0 26px 0 8px
+  margin-bottom: 24px
+  @media (max-width: $bp-max-sm)
+    height: auto
+    padding: 8px 26px 8px 8px
+  img
+    width: 60px
+    height: auto
+    margin-left: -8px
+  span
+    font-weight: 700
+    font-size: 20px
+    color: $color-sistema-texto
+    line-height: 1  
+
+.tema1-frase
+  position: relative
+  margin-top: 3rem
+  padding-top: 3rem !important
+  background-color: #FCCFA0
+  img
+    position: absolute
+    top: 0
+    left: 50%
+    width: 76px
+    transform: translate(-50%, -50%)
+
+.tema1-slyder
+  min-height: 100%
+  background-color: #FCCFA0
+
+.tema1-slyder__icono,
+.tema1-conectada__icono,
+.tema1-tarjeta-boton__img
+  width: 110px
+  margin: 0 auto 1.5rem
+
+.tema1-acordeon
+  background-color: #CCE0D4
+  &.acordion__activo
+    background-color: #FFD5D6
+
+.tema1-conectada-1
+  background-color: #FCCFA0
+
+.tema1-conectada-2
+  background-color: #FFE0A6
+
+.tema1-conectada-3
+  background-color: #FF9798
+
+.tema1-conectada-4
+  background-color: #C2AFFF
+
+.tema1-conectada-5
+  background-color: #EEF6F6
+
+.tema1-tarjeta-boton
+  background-color: #CCE0D4
+  &:hover
+    background-color: #FFD5D6
+    transform: translateY(-4px)
+    .tema1-tarjeta-boton__img--base
+      opacity: 0
+    .tema1-tarjeta-boton__img--hover
+      opacity: 1
+  h5
+    margin-top: .5rem
+
+.tema1-tarjeta-boton__iconos
+  position: relative
+  width: 110px
+  height: 110px
+  margin: 0 auto 1.5rem
+
+.tema1-tarjeta-boton__img
+  position: absolute
+  inset: 0
+  width: 100%
+  margin: 0
+  transition: opacity .3s ease-in-out
+
+.tema1-tarjeta-boton__img--hover
+  opacity: 0
+
+.tema1-lista-letras
+  .lista-ol--cuadro__vineta
+    background-color: #C2AFFF
+    span
+      color: $color-sistema-texto
+
+// Tema 2
+.tema2-img-cover
+  width: 100%
+  height: 100%
+  object-fit: cover
+  border-radius: 12px
+
+.tema2-icono-84
+  width: 84px
+  min-width: 84px
+
+.tema2-destacado-primario
+  background-color: #FEECD9
+
+.tema2-destacado-secundario
+  background-color: #FFD5D6
+
+.tema2-tarjeta-clara
+  background-color: #EEF6F6
+
+.tema2-conectada-1
+  background-color: #FCCFA0
+
+.tema2-conectada-2
+  background-color: #C2AFFF
+
+.tema2-conectada-3
+  background-color: #FF9798
+
+.tema2-conectada-4
+  background-color: #EEF6F6
+
+.tema2-conectada__icono
+  width: 95px
+  margin: 0 auto 1.5rem
+
+.tema2-slyder-fondo
+  background-color: #E7DFFF
+  border-radius: 16px
+
+.tema2-slyder
+  min-height: 100%
+  background-color: $white
+
+.tema2-slyder__icono
+  width: 92px
+  margin: 0 auto 1.5rem
+
+.tema2-acordeon
+  background-color: #CCE0D4
+  &.acordion__activo
+    background-color: #FFD5D6
+
+.tema2-frase
+  position: relative
+  margin-top: 3rem
+  padding-top: 3rem !important
+  background-color: #FCCFA0
+  img
+    position: absolute
+    top: 0
+    left: 50%
+    width: 76px
+    transform: translate(-50%, -50%)
+
+.tema2-lista-letras,
+.tema2-elementos
+  background-color: #E7DFFF
+
+.tema2-lista-letras
+  .lista-ol--cuadro__vineta
+    background-color: #C2AFFF
+    span
+      color: $color-sistema-texto
+
+.tema2-tarjeta-boton
+  background-color: #CCE0D4
+  &:hover
+    background-color: #FFD5D6
+    transform: translateY(-4px)
+    .tema2-tarjeta-boton__img--base
+      opacity: 0
+    .tema2-tarjeta-boton__img--hover
+      opacity: 1
+  h5
+    margin-top: .5rem
+
+.tema2-tarjeta-boton__iconos
+  position: relative
+  width: 110px
+  height: 110px
+  margin: 0 auto 1.5rem
+
+.tema2-tarjeta-boton__img
+  position: absolute
+  inset: 0
+  width: 100%
+  transition: opacity .3s ease-in-out
+
+.tema2-tarjeta-boton__img--hover
+  opacity: 0
+
+.tema2-infografia-card
+  width: 320px
+  background-color: #FEECD9
+
+// Tema 3
+.tema3-img-cover
+  width: 100%
+  height: 100%
+  object-fit: cover
+  border-radius: 12px
+
+.tema3-icono-84,
+.tema3-icono-90
+  width: 84px
+  min-width: 84px
+
+.tema3-icono-90
+  width: 90px
+  min-width: 90px
+
+.tema3-destacado-primario
+  background-color: #FEECD9
+
+.tema3-destacado-secundario
+  background-color: #FFD5D6
+
+.tema3-destacado-acento,
+.tema3-lista-letras
+  background-color: #E7DFFF
+
+.tema3-tarjeta-clara
+  background-color: #FEECD9
+
+.tema3-slyder
+  min-height: 100%
+  background-color: $white
+
+.tema3-slyder__icono
+  width: 92px
+  margin: 0 auto 1.5rem
+
+.tema3-conectada-1
+  background-color: #FCCFA0
+
+.tema3-conectada-2
+  background-color: #C2AFFF
+
+.tema3-conectada-3
+  background-color: #FF9798
+
+.tema3-conectada-4
+  background-color: #EEF6F6
+
+.tema3-conectada__icono
+  width: 95px
+  margin: 0 auto 1.5rem
+
+.tema3-acordeon
+  background-color: #CCE0D4
+  &.acordion__activo
+    background-color: #FFD5D6
+
+.tema3-frase
+  position: relative
+  margin-top: 3rem
+  padding-top: 3rem !important
+  background-color: #FCCFA0
+  img
+    position: absolute
+    top: 0
+    left: 50%
+    width: 76px
+    transform: translate(-50%, -50%)
+
+.tema3-lista-letras
+  .lista-ol--cuadro__vineta
+    background-color: #C2AFFF
+    span
+      color: $color-sistema-texto
+
+.tema3-infografia-card
+  width: 310px
+  background-color: #FEECD9
+
+.tema3-componentes,
+.tema3-casos
+  overflow: hidden
+  border-radius: 12px
+
+.tema3-componentes__item
+  background-color: #FEECD9
+  &:nth-child(even)
+    background-color: #FFD5D6
+
+.tema3-casos
+  background-color: #E7DFFF
+
+.tema3-casos__item
+  border-bottom: 1px solid rgba($color-sistema-texto, .2)
+  &:last-child
+    border-bottom: 0
+
+.tema3-tarjeta-boton
+  background-color: #CCE0D4
+  &:hover
+    background-color: #FFD5D6
+    transform: translateY(-4px)
+    .tema3-tarjeta-boton__img--base
+      opacity: 0
+    .tema3-tarjeta-boton__img--hover
+      opacity: 1
+
+.tema3-tarjeta-boton__iconos
+  position: relative
+  width: 115px
+  height: 115px
+  margin: 0 auto 1.5rem
+
+.tema3-tarjeta-boton__img
+  position: absolute
+  inset: 0
+  width: 100%
+  transition: opacity .3s ease-in-out
+
+.tema3-tarjeta-boton__img--hover
+  opacity: 0
+
+.tema3-podcast
+  background-color: #FCCFA0
+  border-radius: 12px
+
 .p-full-width
   padding: 3rem 3.5rem!important;
 .bg-full-width
@@ -65,11 +464,37 @@ figcaption
   &-1
     background-color: $color-primario
 
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
+  display: flex
 
+.linea-tiempo-d__item__content__title
+  background-color: #CCE0D4
+.linea-tiempo-d__item__content__slot
+  background-color: #FEDEDE
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #FEDEDE
+.tarjeta--gris, .tarjeta--azul
+  background-color: #CCE0D4
+.linea-tiempo-d__item__number
+  background-color: #00642B
+  color: #fff !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: #000 !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFEAEA;
+  color: #12263F
 
+.acordion__activo
+  background-color: #CCE0D4
+.acordion__accion__btn--b 
+  border: 1px solid #00642B
+  background-color: #00642B
+  color: white !important
 
-
-
+.lista-ol--cuadro__vineta
+  color: #210000
+.fas.fa-bookmark
+  color: #C2AFFF
 
 /**************************************************************/
 /*Media Queries*/  

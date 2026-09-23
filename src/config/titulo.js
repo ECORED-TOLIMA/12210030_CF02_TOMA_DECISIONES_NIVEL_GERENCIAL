@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Herramientas de evaluación y seguimiento en la estructura organizacional'
