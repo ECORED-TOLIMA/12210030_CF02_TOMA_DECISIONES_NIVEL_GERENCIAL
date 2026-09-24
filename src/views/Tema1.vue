@@ -349,6 +349,7 @@
     
     .row.justify-content-center.mb-4
       .col-lg-10
+        h5.mb-3 Modelo McKinsey 7S: siete factores interconectados
         .d-none.d-lg-block
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)

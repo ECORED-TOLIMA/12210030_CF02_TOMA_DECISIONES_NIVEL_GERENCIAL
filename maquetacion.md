@@ -2353,3 +2353,36 @@ Criterio aprendido:
 Criterio aprendido:
 
 > Los anexos y enlaces forman parte del contenido. Los enlaces oficiales se trasladan desde las anotaciones del Word; cuando un anexo local no está disponible, se prepara su ruta definitiva y se registra el recurso pendiente sin crear un archivo ficticio.
+
+## Maquetación del Tema 4 del CF02
+
+- `Tema4.vue` se desarrolló con la composición de la hoja 6 de `fuentes/12210030_CF02_DW.pdf` y el contenido completo del Tema 4 de `fuentes/12210030_CF02_DI.docx`.
+- La sección 4.1 presenta los cuatro estilos de liderazgo en tarjetas conectadas y los tres casos empresariales en bloques alternados junto a la imagen de referencia.
+- La sección 4.2 conserva los cuatro síntomas del pensamiento grupal en tarjetas `Avatar`, la frase destacada y los tres casos colombianos.
+- La sección 4.3 incorpora las aplicaciones de Delphi, grupo nominal y *Design Thinking*, sus tres casos en tarjetas conectadas y el componente institucional `TarjetaAudio` con el recurso disponible en el proyecto.
+- La sección 4.4 presenta los cinco estilos de gestión del conflicto, la frase destacada y los tres casos de aplicación.
+- Se conservaron las cursivas de *groupthink* y *Design Thinking*, las negrillas de títulos y términos, y las expresiones editoriales “en los cuatro casos” y “en los tres primeros casos” aunque las fuentes presenten tres casos.
+- En los bloques con imagen a la derecha se aplicaron las clases `order-2 order-lg-1` y `order-1 order-lg-2`, de modo que la vista móvil mantiene la alternancia entre recursos visuales y contenido.
+- Se añadieron en `_custom.sass` las clases específicas del Tema 4 para imágenes, destacados, tarjetas conectadas, frases, casos y pódcast, conservando la paleta y los patrones del CF01.
+- La compilación se validó en una ruta de salida temporal porque un proceso externo mantenía bloqueado `dist/downloads/Anexo_01_Formatos_Decision.pdf`. El código finaliza correctamente; permanecen únicamente las advertencias preexistentes sobre `assets/bullets/puntero.svg` y el tamaño del paquete principal.
+
+Criterio aprendido:
+
+> En los contenidos extensos, los textos alojados en cuadros, formas y tarjetas del Word también forman parte del contenido obligatorio. Deben contrastarse con la composición del PDF para recuperar cada síntoma, técnica y caso sin resumirlo, y mantener literalmente las inconsistencias editoriales mientras no exista una instrucción expresa de corrección.
+
+## Maquetación del Tema 5 del CF02
+
+- `Tema5.vue` se desarrolló con la composición de la hoja 7 de `fuentes/12210030_CF02_DW.pdf` y el contenido completo del Tema 5 de `fuentes/12210030_CF02_DI.docx`.
+- La apertura conserva los cuatro rasgos de la conducta ética que aparecen dentro de una forma del Word: legalidad, responsabilidad, integridad y visión estratégica.
+- La sección 5.1 presenta los tres enfoques de deliberación ética, la frase destacada y los tres casos empresariales con el patrón visual aprobado del CF01.
+- La sección 5.2 incorpora las tres dimensiones de la triple cuenta de resultados, sus criterios de evaluación y los tres casos conectados, sin omitir los textos introductorios incluidos en los elementos gráficos.
+- La sección 5.3 conserva los cuatro elementos de la comunicación asertiva, la frase destacada y los tres casos, incluida la cursiva de *call center*.
+- La sección 5.4 utiliza tres tarjetas `tarjeta--boton`; cada tarjeta cambia de color y alterna entre su icono base y su icono de estado `hover`, utilizando los recursos `img30.svg` a `img35.svg`.
+- Se conservaron literalmente las expresiones “en los cuatro casos” aunque las fuentes presenten tres casos.
+- Los bloques con imagen a la derecha aplican el orden responsive aprobado para evitar recursos visuales consecutivos en dispositivos pequeños.
+- Se añadieron a `_custom.sass` las clases específicas para destacados, tarjetas conectadas, frases, casos, componentes y tarjetas botón del Tema 5.
+- Se verificaron las 35 rutas gráficas utilizadas y la compilación de Vite finalizó correctamente. Permanecen únicamente las advertencias preexistentes sobre `assets/bullets/puntero.svg` y el tamaño del paquete principal.
+
+Criterio aprendido:
+
+> Las tarjetas botón deben construirse con dos recursos por tarjeta, uno base y otro para el estado de interacción, manteniendo ambos superpuestos en un contenedor de tamaño fijo. El cambio de color y de icono se activa en `hover`, mientras el contenido textual permanece completo y estable.

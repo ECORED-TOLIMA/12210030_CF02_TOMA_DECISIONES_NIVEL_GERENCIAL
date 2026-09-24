@@ -104,11 +104,11 @@
                 th Propósito
             tbody
               tr
-                td Indicador de resultado (lagging)
+                td Indicador de resultado (#[em lagging])
                 td Incremento de ventas en 15 % respecto al período anterior.
                 td Medir lo que ya ocurrió: evalúa el impacto de la decisión.
               tr
-                td Indicador de gestión (leading)
+                td Indicador de gestión (#[em leading])
                 td Número de clientes contactados por semana.
                 td Anticipar resultados futuros que permiten ajustar acciones a tiempo.
               tr
