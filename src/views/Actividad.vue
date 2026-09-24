@@ -295,7 +295,7 @@ export default {
       tema: 'Herramientas bajo prueba: evaluar, seguir y liderar la decisión',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Evaluar la comprensión de las herramientas para elegir alternativas, del seguimiento de la decisión en la estructura organizacional y del liderazgo, la ética y la comunicación que la legitiman.<br><br>Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
+        '<b>Objetivo:</b> evaluar la comprensión de las herramientas para elegir alternativas, del seguimiento de la decisión en la estructura organizacional y del liderazgo, la ética y la comunicación que la legitiman.<br><br>Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
