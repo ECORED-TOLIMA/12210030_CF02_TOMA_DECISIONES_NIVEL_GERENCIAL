@@ -104,7 +104,7 @@
             .tarjeta.tema1-conectada-4.p-3(x="58%" y="64%" numero="+")
               p.mb-0 Minimizar las debilidades y evitar las amenazas. Reduce la exposición al riesgo cuando ambos factores son adversos.
         .d-block.d-lg-none
-          img(src="@/assets/curso/temas/t1/img10_1.svg" alt="Matriz estratégica FODA con las estrategias FO ofensiva, DO adaptativa, FA defensiva y DA de supervivencia.")
+          img(src="@/assets/curso/temas/t1/img10_1.svg" alt="")
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-3.col-8.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/t1/img11.png" alt="")
@@ -118,6 +118,7 @@
           img(src="@/assets/curso/temas/t1/img12.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Ampliación de una panadería
               p.mb-0.text-center La gerencia cruzó su fortaleza, una receta reconocida en el municipio, con la oportunidad del nuevo conjunto residencial vecino y abrió un punto de venta allí. La estrategia ofensiva duplicó las ventas en un semestre sin cambiar el producto.
       .col-md-6.col-xl-4.mb-4
@@ -125,6 +126,7 @@
           img(src="@/assets/curso/temas/t1/img13.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Renovación de flota en una empresa de transporte escolar
               p.mb-0.text-center La debilidad era la antigüedad de la flota y la oportunidad, una línea de crédito de fomento para renovar vehículos. La estrategia adaptativa combinó ambas y la empresa renovó cuatro buses sin comprometer su flujo de caja ni el contrato con los colegios.
       .col-md-6.col-xl-4.mb-4
@@ -132,6 +134,7 @@
           img(src="@/assets/curso/temas/t1/img14.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Taller de confecciones
               p.mb-0.text-center Con la debilidad de depender de un solo cliente y la amenaza de que ese cliente importara desde Asia, la gerencia adoptó una estrategia de supervivencia. Redujo costos fijos, diversificó a tres clientes pequeños y sobrevivió al año en que el pedido principal desapareció.
     p.mb-4 En los tres casos la decisión no salió de la lista de factores, sino del cruce entre ellos. La matriz obliga a preguntarse qué hacer con cada combinación, y esa pregunta transforma el diagnóstico en estrategia.
@@ -214,15 +217,15 @@
       .col-md-6.col-xl-4.tarjeta.tema1-conectada-1.p-4
         img.tema1-conectada__icono(src="@/assets/curso/temas/t1/img26.svg" alt="")
         h5.text-center Empresa de domicilios
-        p.mb-0.text-center Al revisar la dimensión tecnológica, la gerencia detectó que las plataformas nacionales de reparto llegarían al municipio en un año. Se anticipó con una aplicación propia y acuerdos con restaurantes locales, y conservó la mitad del mercado cuando las plataformas entraron.
+        p.mb-5.text-center Al revisar la dimensión tecnológica, la gerencia detectó que las plataformas nacionales de reparto llegarían al municipio en un año. Se anticipó con una aplicación propia y acuerdos con restaurantes locales, y conservó la mitad del mercado cuando las plataformas entraron.
       .col-md-6.col-xl-4.tarjeta.tema1-conectada-2.p-4
         img.tema1-conectada__icono(src="@/assets/curso/temas/t1/img27.svg" alt="")
         h5.text-center Fábrica de ladrillos
-        p.mb-0.text-center La dimensión ecológica reveló que la nueva norma de emisiones exigiría cambiar los hornos en dos años. La empresa programó la inversión por etapas y evitó el cierre temporal que sufrieron los competidores que esperaron a la sanción.
+        p.mb-5.text-center La dimensión ecológica reveló que la nueva norma de emisiones exigiría cambiar los hornos en dos años. La empresa programó la inversión por etapas y evitó el cierre temporal que sufrieron los competidores que esperaron a la sanción.
       .col-md-6.col-xl-4.tarjeta.tema1-conectada-3.p-4
         img.tema1-conectada__icono(src="@/assets/curso/temas/t1/img28.svg" alt="")
         h5.text-center Distribuidora de repuestos
-        p.mb-0.text-center Las dimensiones económica y política, con la tasa de cambio y las restricciones fronterizas, llevaron a la gerencia a mantener inventario de tres meses. Cuando el paso fronterizo se cerró, la empresa fue la única de la zona con existencias y conservó a sus clientes.
+        p.mb-5.text-center Las dimensiones económica y política, con la tasa de cambio y las restricciones fronterizas, llevaron a la gerencia a mantener inventario de tres meses. Cuando el paso fronterizo se cerró, la empresa fue la única de la zona con existencias y conservó a sus clientes.
     p.mb-4 En cada caso la gerencia no adivinó el futuro; lo examinó por dimensiones y encontró la señal antes que los demás. El valor del PESTEL está en esa rutina de exploración ordenada y no en la precisión de las predicciones.
     p.mb-0 Tanto el FODA como el PESTEL dependen del juicio de quienes los construyen, y ese juicio mejora cuando participan varias personas sin que una domine la conversación. Cómo lograr esa participación estructurada es el aporte de las técnicas que siguen.
 
@@ -264,6 +267,7 @@
           img(src="@/assets/curso/temas/t1/img33.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Inversiones en una empresa de acueducto
               p.mb-0.text-center La gerencia aplicó el grupo nominal con doce supervisores para ordenar las obras urgentes. Las ideas escritas en silencio revelaron una fuga que ningún informe había registrado, y la votación la ubicó por encima de la ampliación que la dirección tenía prevista.
       .col-md-6.col-xl-4.mb-4
@@ -271,6 +275,7 @@
           img(src="@/assets/curso/temas/t1/img34.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Proyección de la demanda en una avícola
               p.mb-0.text-center Ante la incertidumbre del precio del maíz, la gerencia consultó por Delphi a ocho expertos del sector en tres rondas. La convergencia de sus respuestas permitió fijar contratos de abastecimiento a un año con un margen que después resultó acertado.
       .col-md-6.col-xl-4.mb-4
@@ -278,10 +283,11 @@
           img(src="@/assets/curso/temas/t1/img35.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Plan de tecnología en una clínica
               p.mb-0.text-center La junta consultó por rondas anónimas a médicos, ingenieros y proveedores sobre qué sistema de historia clínica adoptar. Sin la presión de la reunión presencial, los médicos señalaron problemas de uso que los ingenieros no habían considerado y la elección cambió.
       
-    .row.justify-content-center.mb-4
+    .row.justify-content-center
       .col-lg-10
         .tarjeta.tema1-destacado-acento
           .row.align-items-center
@@ -376,7 +382,7 @@
               p Valores centrales y cultura organizacional, núcleo del modelo.
               p.mb-0 #[strong Pregunta clave:] ¿qué principios guían las decisiones de todos?
         .d-block.d-lg-none
-          img(src="@/assets/curso/temas/t1/img43_1.svg" alt="Infografía del modelo McKinsey 7S con estrategia, estructura, sistemas, habilidades, estilo, personal y valores compartidos.")
+          img(src="@/assets/curso/temas/t1/img43_1.svg" alt="")
     .row.justify-content-center.mb-4
       .col-lg-10
         .tema1-destacado-acento.p-4
@@ -388,6 +394,7 @@
           img(src="@/assets/curso/temas/t1/img45.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Lechería
               p.mb-0.text-center La gerencia optó por el desarrollo de producto, yogur y quesos madurados para sus clientes actuales, y el modelo 7S reveló que el personal no dominaba la nueva tecnología. Seis meses de capacitación previa evitaron los lotes defectuosos que habían arruinado a un competidor.
       .col-md-6.col-xl-4.mb-4
@@ -395,6 +402,7 @@
           img(src="@/assets/curso/temas/t1/img46.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Ferretería
               p.mb-0.text-center Decidió penetración de mercado con un programa de crédito a maestros de obra. Al examinar el estilo de dirección, la gerencia notó que el control centralizado del dueño frenaría las aprobaciones y delegó en dos vendedores, con lo que la cartera creció sin mora.
       .col-md-6.col-xl-4.mb-4
@@ -402,6 +410,7 @@
           img(src="@/assets/curso/temas/t1/img47.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Hotel
               p.mb-0.text-center Consideró diversificar hacia el transporte turístico, pero el análisis de habilidades y valores evidenció que no tenía experiencia en operar vehículos ni cultura de seguridad vial. Se alió con un transportador y evitó una inversión que no dominaba.
     p.mb-4 En los tres casos la matriz indicó el rumbo y el modelo advirtió sobre las condiciones para seguirlo. La decisión final no fue la más ambiciosa, sino la que la organización podía ejecutar con sus siete factores alineados.
@@ -471,6 +480,7 @@
           img(src="@/assets/curso/temas/t1/img53.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Confecciones
               p.mb-0.text-center El cuadro de mando reveló que la rentabilidad crecía mientras la rotación del personal calificado subía cada mes. La gerencia reconoció la cadena de causa y efecto y ajustó los turnos antes de que la calidad, y luego los clientes, resintieran la salida de las operarias expertas.
       .col-md-6.col-xl-4.mb-4
@@ -478,6 +488,7 @@
           img(src="@/assets/curso/temas/t1/img54.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Exportadora de flores
               p.mb-0.text-center Construyó tres escenarios de tasa de cambio y de costo del flete aéreo, y definió para cada uno qué proporción de la cosecha vendería con contrato anticipado. Cuando la tasa cayó, el plan del escenario pesimista ya existía y la empresa evitó vender a pérdida.
       .col-md-6.col-xl-4.mb-4
@@ -485,6 +496,7 @@
           img(src="@/assets/curso/temas/t1/img55.svg" alt="")
           .tarjeta.tema1-fondo-primario-claro.w-100.h-100
             .p-4
+              br
               h5.text-center Cadena de droguerías
               p.mb-0.text-center Integró las ventas de sus ocho puntos en un tablero de inteligencia de negocios y detectó que dos sedes vendían medicamentos vencidos por falta de rotación. El sistema permitió redistribuir el inventario cada semana y eliminó las pérdidas por vencimiento.
     p.mb-4 En los tres casos la información no fue el problema, sino el orden con que se organizó. El cuadro de mando le dio estructura, los escenarios le dieron horizonte y el sistema de información la puso a disposición de quien decide.

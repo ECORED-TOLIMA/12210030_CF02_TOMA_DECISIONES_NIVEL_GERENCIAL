@@ -150,6 +150,7 @@
           img(src="@/assets/curso/temas/t2/img17.svg" alt="")
           .tarjeta.tema2-destacado-primario.w-100.h-100
             .p-4
+              br
               h5.text-center Lanzamiento de una bebida
               p.mb-0.text-center La gerencia dibujó dos alternativas, lanzar en toda la región o probar en tres tiendas, con probabilidades de aceptación alta y baja. El valor esperado de la prueba superó al del lanzamiento completo, y la empresa evitó producir un inventario que después no habría rotado.
       .col-md-6.col-xl-4.mb-4
@@ -157,6 +158,7 @@
           img(src="@/assets/curso/temas/t2/img18.svg" alt="")
           .tarjeta.tema2-destacado-primario.w-100.h-100
             .p-4
+              br
               h5.text-center Compra de una cosechadora
               p.mb-0.text-center El productor de arroz comparó comprar la máquina con seguir alquilando, bajo escenarios de cosecha buena y mala con probabilidades tomadas de los últimos diez años. El árbol reveló que la compra solo superaba al alquiler si se compartía con dos fincas vecinas, y así se decidió.
       .col-md-6.col-xl-4.mb-4
@@ -164,6 +166,7 @@
           img(src="@/assets/curso/temas/t2/img19.svg" alt="")
           .tarjeta.tema2-destacado-primario.w-100.h-100
             .p-4
+              br
               h5.text-center Contrato de suministro en una empresa
               p.mb-0.text-center Ante un cliente que ofrecía un contrato grande con pago a noventa días, el árbol incluyó la probabilidad de mora estimada a partir de la cartera histórica. El valor esperado, una vez descontado el riesgo de impago, resultó menor que el de tres clientes pequeños con pago de contado.
     .row.align-items-center.justify-content-center.mb-0

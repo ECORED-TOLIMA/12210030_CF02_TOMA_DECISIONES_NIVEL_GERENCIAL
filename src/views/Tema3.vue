@@ -282,9 +282,9 @@
           img(src="@/assets/curso/temas/t3/img29.svg" alt="")
           p.mb-0.fw-bold.text-center Una decisión que no quedó escrita se recuerda como cada uno la vivió. El formato es lo que permite discutir después sobre lo que se decidió y no sobre lo que cada uno cree que se decidió.
     p.mb-4 Conocer los cinco formatos no basta si no se dispone de ellos en el momento de decidir. Por eso se reúnen en un solo archivo, listo para diligenciar, con la tabla de consecuencias, la matriz de ponderación, el acta de decisión, la ficha de indicador y el informe de seguimiento. Cada formato incluye su plantilla en blanco y un ejemplo resuelto de una empresa colombiana que recorre el proceso completo.
-    .tarjeta.tarjeta--gris.p-3.mb-4
+    .tarjeta.tarjeta--gris.p-4.mb-4
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
           img(src="@/assets/curso/temas/t3/img30.svg" alt="")
         .col
           .row.justify-content-between.align-items-center
@@ -298,50 +298,50 @@
     p.mb-4 Cuatro formatos oficiales de acceso libre complementan el anexo y se descargan desde el sitio de la entidad que los publica:
     .row.justify-content-center.mb-4
       .col-lg-6.mb-4
-        .tarjeta.tarjeta--gris.p-3.h-100
+        .tarjeta.tarjeta--gris.p-4.h-100
           .row.align-items-center.h-100
-            .col-3.col-sm-2
+            .col-lg-2.col-sm-2.d-none.d-lg-block
               img(src="@/assets/curso/temas/t3/img31.svg" alt="")
-            .col-7
+            .col-lg-7
               h4.mb-1 Matriz de priorización
               p Para ordenar varias opciones antes de decidir, se recomienda descargar la matriz de priorización incluida en el Anexo 01 y diligenciarla con un caso propio.
-            .col-2
+            .col-lg-2
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_01_Formatos_Decision.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
       .col-lg-6.mb-4
-        .tarjeta.tarjeta--gris.p-3.h-100
+        .tarjeta.tarjeta--gris.p-4.h-100
           .row.align-items-center.h-100
-            .col-3.col-sm-2
+            .col-lg-2.col-sm-2.d-none.d-lg-block.d-none.d-lg-block
               img(src="@/assets/curso/temas/t3/img32.svg" alt="")
-            .col-7
+            .col-lg-7
               h4.mb-1 Guía de indicadores
               p Para medir el avance de una decisión, se recomienda descargar la guía de indicadores de Función Pública y construir la hoja de vida de un indicador.
-            .col-2
+            .col-lg-2
               a.boton.color-acento-botones.texto-blanco(href="https://www1.funcionpublica.gov.co/documents/418548/34150781/Gu%C3%ADa+para+la+construcci%C3%B3n+y+an%C3%A1lisis+de+Indicadores+de+Gesti%C3%B3n+-+Versi%C3%B3n+4+-+Mayo+2018.pdf/0e0d10e4-0ec0-6781-21e9-f2bedfd0e18a?version=1.0&download=true" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
       .col-lg-6.mb-4
-        .tarjeta.tarjeta--gris.p-3.h-100
+        .tarjeta.tarjeta--gris.p-4.h-100
           .row.align-items-center.h-100
-            .col-3.col-sm-2
+            .col-lg-2.col-sm-2.d-none.d-lg-block
               img(src="@/assets/curso/temas/t3/img33.svg" alt="")
-            .col-7
+            .col-lg-7
               h4.mb-1 Formato de tabla de retención
               p Para definir cuánto tiempo se conserva cada documento, se recomienda descargar el formato de tabla de retención documental del Archivo General de la Nación.
-            .col-2
+            .col-lg-2
               a.boton.color-acento-botones.texto-blanco(href="https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/2_Politica_archivistica/Instrumentos_Archivisticos/Formatotablasretenciondocumental.pdf" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
       .col-lg-6.mb-4
-        .tarjeta.tarjeta--gris.p-3.h-100
+        .tarjeta.tarjeta--gris.p-4.h-100
           .row.align-items-center.h-100
-            .col-3.col-sm-2
+            .col-lg-2.col-sm-2.d-none.d-lg-block
               img(src="@/assets/curso/temas/t3/img34.svg" alt="")
-            .col-7
+            .col-lg-7
               h4.mb-1 Formato de inventario
               p Para registrar los documentos que respaldan una decisión, se recomienda descargar el formato único de inventario documental del Archivo General de la Nación.
-            .col-2
+            .col-lg-2
               a.boton.color-acento-botones.texto-blanco(href="https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/2_Politica_archivistica/Instrumentos_Archivisticos/Formatounicoinventariodocumental.pdf" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
