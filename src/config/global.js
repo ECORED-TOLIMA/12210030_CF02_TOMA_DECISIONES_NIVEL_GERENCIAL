@@ -280,52 +280,52 @@ export default {
   referencias: [
     {
       referencia:
-        'Ansoff, H. I. (1957). Strategies for diversification. <em>Harvard Business Review, 35</em>(5), 113-124.',
+        'Ansoff, H. I. (1957). Strategies for diversification. Harvard Business Review, 35(5), 113-124.',
       link: '',
     },
     {
       referencia:
-        'Elkington, J. (1994). Towards the sustainable corporation: Win-win-win business strategies for sustainable development. <em>California Management Review, 36</em>(2), 90-100.',
+        'Elkington, J. (1994). Towards the sustainable corporation: Win-win-win business strategies for sustainable development. California Management Review, 36(2), 90-100.',
       link: '',
     },
     {
       referencia:
-        'Godet, M. (2000). The art of scenarios and strategic planning: Tools and pitfalls. <em>Technological Forecasting and Social Change, 65</em>(1), 3-22.',
+        'Godet, M. (2000). The art of scenarios and strategic planning: Tools and pitfalls. Technological Forecasting and Social Change, 65(1), 3-22.',
       link: '',
     },
     {
       referencia:
-        'Janis, I. L. (1972). <em>Victims of groupthink: A psychological study of foreign-policy decisions and fiascoes</em>. Houghton Mifflin.',
+        'Janis, I. L. (1972). Victims of groupthink: A psychological study of foreign-policy decisions and fiascoes. Houghton Mifflin.',
       link: '',
     },
     {
       referencia:
-        'Kaplan, R. S., & Norton, D. P. (1996). <em>The balanced scorecard: Translating strategy into action</em>. Harvard Business School Press.',
+        'Kaplan, R. S., & Norton, D. P. (1996). The balanced scorecard: Translating strategy into action. Harvard Business School Press.',
       link: '',
     },
     {
       referencia:
-        'Kotter, J. P. (1996). <em>Leading change</em>. Harvard Business School Press.',
+        'Kotter, J. P. (1996). Leading change. Harvard Business School Press.',
       link: '',
     },
     {
       referencia:
-        'Laudon, K. C., & Laudon, J. P. (2016). <em>Sistemas de información gerencial</em> (14.ª ed.). Pearson.',
+        'Laudon, K. C., & Laudon, J. P. (2016). Sistemas de información gerencial (14.ª ed.). Pearson.',
       link: '',
     },
     {
       referencia:
-        'Mintzberg, H. (2009). <em>Managing</em>. Berrett-Koehler Publishers.',
+        'Mintzberg, H. (2009). Managing. Berrett-Koehler Publishers.',
       link: '',
     },
     {
       referencia:
-        "Peters, T. J., & Waterman, R. H. (1982). <em>In search of excellence: Lessons from America's best-run companies</em>. Harper & Row.",
+        "Peters, T. J., & Waterman, R. H. (1982). In search of excellence: Lessons from America's best-run companies. Harper & Row.",
       link: '',
     },
     {
       referencia:
-        'Thomas, K. W., & Kilmann, R. H. (1974). <em>Thomas-Kilmann conflict mode instrument</em>. Xicom.',
+        'Thomas, K. W., & Kilmann, R. H. (1974). Thomas-Kilmann conflict mode instrument. Xicom.',
       link: '',
     },
   ],
