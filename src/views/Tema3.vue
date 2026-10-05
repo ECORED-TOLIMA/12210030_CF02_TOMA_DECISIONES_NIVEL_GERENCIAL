@@ -295,32 +295,21 @@
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_01_Formatos_Decision.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-    p.mb-4 Cuatro formatos oficiales de acceso libre complementan el anexo y se descargan desde el sitio de la entidad que los publica:
-    .row.justify-content-center.mb-4
-      .col-lg-6.mb-4
-        .tarjeta.tarjeta--gris.p-4.h-100
-          .row.align-items-center.h-100
-            .col-lg-2.col-sm-2.d-none.d-lg-block
-              img(src="@/assets/curso/temas/t3/img31.svg" alt="")
-            .col-lg-7
-              h4.mb-1 Matriz de priorización
-              p Para ordenar varias opciones antes de decidir, se recomienda descargar la matriz de priorización incluida en el Anexo 01 y diligenciarla con un caso propio.
-            .col-lg-2
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_01_Formatos_Decision.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-      .col-lg-6.mb-4
-        .tarjeta.tarjeta--gris.p-4.h-100
-          .row.align-items-center.h-100
-            .col-lg-2.col-sm-2.d-none.d-lg-block.d-none.d-lg-block
-              img(src="@/assets/curso/temas/t3/img32.svg" alt="")
-            .col-lg-7
+    p.mb-4 Tres formatos oficiales de acceso libre complementan el anexo y se descargan desde el sitio de la entidad que los publica:
+    .tarjeta.tarjeta--gris.p-4.mb-4
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+          img(src="@/assets/curso/temas/t3/img32.svg" alt="")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
               h4.mb-1 Guía de indicadores
-              p Para medir el avance de una decisión, se recomienda descargar la guía de indicadores de Función Pública y construir la hoja de vida de un indicador.
-            .col-lg-2
+              p.mb-0 Para medir el avance de una decisión, se recomienda descargar la guía de indicadores de Función Pública y construir la hoja de vida de un indicador.
+            .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www1.funcionpublica.gov.co/documents/418548/34150781/Gu%C3%ADa+para+la+construcci%C3%B3n+y+an%C3%A1lisis+de+Indicadores+de+Gesti%C3%B3n+-+Versi%C3%B3n+4+-+Mayo+2018.pdf/0e0d10e4-0ec0-6781-21e9-f2bedfd0e18a?version=1.0&download=true" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
+    .row.justify-content-center.mb-4
       .col-lg-6.mb-4
         .tarjeta.tarjeta--gris.p-4.h-100
           .row.align-items-center.h-100

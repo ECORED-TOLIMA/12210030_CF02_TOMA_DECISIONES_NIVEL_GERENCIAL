@@ -136,7 +136,7 @@ export default {
           },
           {
             numero: '4.3',
-            titulo: 'Técnicas participativas y Design Thinking',
+            titulo: 'Técnicas participativas y <em>Design Thinking</em>',
             hash: 't_4_3',
           },
           {
